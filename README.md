@@ -147,14 +147,3 @@ python notebooks/build_notebook.py   # notebook de synthèse
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-## Résumé CV (2-3 lignes)
-
-> **Analyse spatio-temporelle des risques naturels (NASA EONET)** — Python,
-> scikit-learn, Prophet, Plotly. Ingestion reproductible de ~19 500 événements
-> via l'API EONET, détection de hotspots par **DBSCAN géospatial** (haversine),
-> **prévision de fréquence** par Prophet et **indice de risque composite** par
-> zone, restitués en cartes interactives — avec discussion des biais de
-> reporting.
