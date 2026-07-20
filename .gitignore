@@ -1,0 +1,18 @@
+# Raw + processed EONET data are reproducible via `python src/ingest.py`.
+# The raw CSV (~5 MB) is small enough to keep the repo self-contained, but the
+# processed cache is regenerated — ignore it.
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
